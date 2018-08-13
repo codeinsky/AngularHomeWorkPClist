@@ -12,9 +12,8 @@
 <div>
   <p>Add new PC to stock</p>
   <form>
-  <input type="text" placeholder="computer name"> <br>
-  <input type="number" placeholder="year of prodcue"> <br>
-  <button (click) ="add()">ADD</button>
+  <input #pcName type="text" placeholder="computer name"> <br>
+  <input #pcType type="number" placeholder="year of prodcue"> <br>
+  <button (click) ="add(pcName.value , pcType.value)">ADD</button>
   </form>
 </div>
-

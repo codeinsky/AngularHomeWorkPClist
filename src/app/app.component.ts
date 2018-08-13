@@ -30,8 +30,18 @@ this.cart.items ++
 
 }
 
+add(namePC:string , yearPC: number ) {
+  let pc:pc ; 
+  pc.name = namePC;
+  pc.year = yearPC;
+  pc.flag = ""; 
+  this.pcList.push(pc);
+  console.log(pc);
+}
+
 
   title = 'pcListHW';
 }
+
 
 

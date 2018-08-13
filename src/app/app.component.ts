@@ -33,12 +33,11 @@ this.cart.items ++
 add(namePC:string , yearPC: number ) {
 console.log(namePC);
 console.log(yearPC);
-//this.pcList.push({name=namePC , year=Number(yearPC) , flag="my icon"});
+this.pcList.push({name:namePC , year :Number(yearPC) , flag: "my icon"});
 }
 
 
   title = 'pcListHW';
 }
-
 
 
